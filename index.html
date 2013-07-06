@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Documento sin título</title>
+<link href="style.css" rel="stylesheet" type="text/css" />
+<style type="text/css">
+#apDiv1 {
+  position: absolute;
+	left: 22px;
+	top: 418px;
+	width: 677px;
+	height: 77px;
+	z-index: 1;
+	font-size: 12px;
+	font-family: Arial, Helvetica, sans-serif;
+}
+</style>
+</head>
+
+<body>
+<div id="factura" >
+  <div id="encabezado">TAMESIS</div>
+  <div id="calculos">
+  	<br/>
+  	<form action="" method="post" name="formfact" id="formfact" class="style.css">
+    <label style="margin-left:620px">Factura de Venta</label><input name="" type="text" id="num_factura">
+    <br/>
+  	  Fecha Factura 
+      <input id="fecha" name="fecha" type="Date"/>
+    <label for="tipo_pago"></label>
+    <select name="tipo_pago" size="1" id="tipo_pago">
+      <option>Contado</option>
+      <option>Credito</option>
+    </select>
+      Fecha Vencimiento
+     <input id="fecha_vence" name="fecha_vence" type="Date" />
+     <br/>
+     Nit/C.C.
+     <input id="nit" name="nit" type="text" />
+  	D.V
+  	<input type="text" name="dv" id="dv" />
+  	Razón Social
+  	<input type="text" name="razon_s" id="razon_s" />
+        <br/>
+    Dirección   
+    <input name="" type="text" id="direccion">
+    Barrio
+    <input type="text" name="Barrio" id="Barrio">
+    <br/>
+    Ciudad
+    <input name="" type="text" id="ciudad">
+    Tel:
+    <input name="" type="text" id="telefono">
+    Asesor (a) Comercial
+    <label for="cod_asesor"></label>
+    <input type="text" name="cod_asesor" id="cod_asesor">
+    <input name="" type="text" id="asesor">
+    <br/>
+    <br/>
+    <input name="" type="text" style="border-top-left-radius:3em; width:100px; text-align:center" readonly value="CODIGO"><input name="" type="text" readonly value="CANT." style=" border-radius:0.1px; width:80px; text-align:center"><input name="" value="UNIDAD" readonly type="text" style="border-radius:0.1px; text-align:center; width:80px"><input name="" readonly value="DESCRIPCION" type="text" style="border-radius:0.1px; text-align:center; width:400px"><input name="" type="text" readonly value="IVA" style="border-radius:0.1px; width:50px; text-align:center"><input name="" readonly value="VR.UNIT. + IVA" type="text" style="border-radius:0.1px; width:130px; text-align:center"><input name="" type="text" value="VR. TOTAL" readonly style=" border-top-right-radius:25px; width:90px; text-align:center">
+        <input name="" type="text" readonly value="000001" style="border-top-left-radius:0.1px; width:100px; text-align:center"><input name="" id="cant1" type="text" style=" border-radius:0.1px; width:80px"><input name="" readonly value="UDS" type="text" style=" text-align:center; border-radius:0.1px; width:80px"><input readonly value="TAMESIS Natural Agua con Aloe Vera X 500 ML" name="" type="text" style="border-radius:0.1px; width:400px;"><input name="" type="text" style="border-radius:0.1px; width:50px" value="16%" readonly><input id="vrunit1" name="" type="text" style="border-radius:0.1px; width:130px"><input name="" id="vrtot1" type="text" style=" border-top-right-radius:0.1px; width:90px">
+        <input name="" readonly value="000002" type="text" style="border-top-left-radius:0.1px; text-align:center; width:100px"><input id="cant2" name="" type="text" style=" border-radius:0.1px; width:80px"><input name="" readonly value="UDS" type="text" style=" text-align:center; border-radius:0.1px; width:80px"><input name="" type="text" style="border-radius:0.1px; width:400px" value="TAMESIS Lychee Aguan con Aloe Vera X 500 ML" readonly><input name="" type="text" style="border-radius:0.1px; width:50px" value="16%" readonly><input name="" id="vrunit2" type="text" style="border-radius:0.1px; width:130px"><input id="vrtot2" name="" type="text" style=" border-top-right-radius:0.1px; width:90px">
+        <input name="" type="text" readonly value="000003" style=" text-align:center; border-top-left-radius:0.1px; width:100px"><input name="" id="cant3" type="text" style=" border-radius:0.1px; width:80px"><input name="" readonly value="UDS" type="text" style=" text-align:center; border-radius:0.1px; width:80px"><input name="" type="text" style="border-radius:0.1px; width:400px" value="TAMESIS Natural Agua con Aloe Vera X 1500 ML" readonly><input name="" type="text" style="border-radius:0.1px; width:50px" value="16%" readonly><input name="" id="vrunit3" type="text" style="border-radius:0.1px; width:130px"><input id="vrtot3" name="" type="text" style=" border-top-right-radius:0.1px; width:90px">
+        <input name="" type="text" style="border-top-left-radius:0.1px; width:100px"><input name="" id="cant4" type="text" style=" border-radius:0.1px; width:80px"><input name="" type="text" style="border-radius:0.1px; width:80px"><input name="" type="text" style="border-radius:0.1px; width:400px"><input name="" type="text" style="border-radius:0.1px; width:50px"><input id="vrunit4" name="" type="text" style="border-radius:0.1px; width:130px"><input name="" id="vrtot4" type="text" style=" border-top-right-radius:0.1px; width:90px">
+        <input name="" type="text" style="border-top-left-radius:0.1px; width:100px"><input name="" id="cant5" type="text" style=" border-radius:0.1px; width:80px"><input name="" type="text" style="border-radius:0.1px; width:80px"><input name="" type="text" style="border-radius:0.1px; width:400px"><input name="" type="text" style="border-radius:0.1px; width:50px"><input name="" id="vrunit5" type="text" style="border-radius:0.1px; width:130px"><input name="" id="vrtot5" type="text" style=" border-top-right-radius:0.1px; width:90px">
+        <input name="" type="text" style="border-bottom-left-radius:25px; width:100px"><input name="" id="cant6" type="text" style=" border-radius:0.1px; width:80px"><input name="" type="text" style="border-radius:0.1px; width:80px"><input name="" type="text" style="border-radius:0.1px; width:400px"><input name="" type="text" style="border-radius:0.1px; width:50px"><input name="" id="vrunit6" type="text" style="border-radius:0.1px; width:130px"><input name="" id="vrtot6" type="text" style=" border-bottom-right-radius:25px; width:90px">
+        <br/>
+        <br/>
+        <input name="" type="text" style="border-top-left-radius:3em; margin-left:730px; width:130px; text-align:center" readonly value="SUB-TOTAL"><input id="subtot" name="" type="text" style=" border-top-right-radius:25px; width:90px; text-align:center">
+        <input name="" type="text" style="border-top-left-radius:0.1px; margin-left:730px; width:130px; text-align:center" readonly value="I.V.A"><input id="iva" name="" type="text" style=" border-top-right-radius:0.1px; width:90px; text-align:center">
+        <input name="" type="text" style="border-bottom-left-radius:3em; margin-left:730px; width:130px; text-align:center" readonly value="TOTAL"><input name="" id="total" type="text" style=" border-bottom-right-radius:25px; width:90px; text-align:center">
+        <br/>
+        <br/>
+        OBSERVACIONES
+        <label for="observa"></label>
+      <input type="text" name="observa" id="observa">
+        <br/>
+        Recibí Mercancia  
+        <input name="" type="text" id="recibido">       
+  	Fecha de Recibido 
+  	<label for="fecha_recib"></label>
+  	<input type="date" name="fecha_recib" id="fecha_recib"><input name="" type="submit" id="send" value="Guardar">
+  	</form>
+    <br/>
+  </div>
+</div>
+<div id="apDiv1">
+  <p>Esta factura de venta se asimila en sus efectos a la Letra de Cambio de acuerdo a lo contemplado en el Artuculo No 774 del Código de Comercio. Apartir de su vencimiento se cobran intereses de mora sobre el valor total de esta factura, a tasa máxima legal permitida. Quien firma como Recibido obra en nombre del comerciante o establecimiento Titular.</p>
+  <p>FAVOR ABSTENERSE DE HACER RETENCION EN LA FUENTE LEY 1429de 2010 ARTICULO 4° PARÁGRAFO 2° (Progresividad en el pago del impuesto sobre renta durante los siguientes 5 años apartir del 29/05/2012)</p>
+</div>
+</body>
+</html>
