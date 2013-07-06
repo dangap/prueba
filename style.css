@@ -1,0 +1,98 @@
+@charset "utf-8";
+#factura {
+  font-size: 16px;
+	font-family: Arial, Helvetica, sans-serif;
+	font: bolder;
+	clear: none;
+	position: absolute;
+	width: 1000px;
+	height: auto;
+	background-color: #A7FF97;
+}
+#encabezado {
+	width: 100%;
+	font:Tahoma, Geneva, sans-serif;
+}
+#datos {
+	float:left;
+	clear:both;
+	width:340px;
+}
+#masdatos {
+	margin-left:16px;
+	float:left;
+	clear:none;
+	width:340px;
+}
+#calculos {
+	width:1000px;
+	height:auto;
+}
+#calculos #formfact input{
+	font-size:16px;
+}
+#calculos #formfact #fecha{
+	width:160px;
+}
+#calculos #formfact #tipo_pago{
+	width:140px;
+	font-size:18px;
+	margin-left: 100px;
+	margin-right:100px;
+}
+#calculos #formfact #fecha_vence{
+	width:160px;
+}
+#calculos #formfact #nit{
+	width:140px;
+	margin-left:46px;
+	margin-right:70px;
+}
+#calculos #formfact #dv{
+	width:50px;
+	margin-left:20px;
+	margin-right:150px;
+}
+#calculos #formfact #razon_s{
+	width: 220px;
+	margin-left:20px;
+}
+#calculos #formfact #direccion{
+	width:360px;
+	margin-left:34px;
+	margin-right:22px;
+}
+#calculos #formfact #Barrio{
+	width:360px;
+	margin-left:16px;
+}
+#calculos #formfact #ciudad{
+	width:110px;
+	margin-left:50px;
+	margin-right: 40px;
+}
+#calculos #formfact #telefono{
+	width:100px;
+	margin-right:43px;
+}
+#calculos #formfact #cod_asesor{
+	width:68px;
+	margin-left:16px;
+}
+#calculos #formfact #asesor{
+	width:230px;
+}
+#calculos #formfact #observa{
+	width:585px;
+}
+#calculos #formfact #recibido{
+	width:280px;
+	margin-left:17px
+}
+#calculos #formfact #fecha_recib{
+	width:160px;
+}
+#calculos #formfact #send{
+	margin-left:40px;
+	width:80px;
+}
